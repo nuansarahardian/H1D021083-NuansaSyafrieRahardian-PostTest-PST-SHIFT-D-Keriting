@@ -1,0 +1,20 @@
+Jelaskan cara kerja dari :
+
+1. Servo : cara kerja servo adalah memerlukan kombinasi dari arduino atau nodemcu, jadi ketika sensor menangkap adanya 
+            pergerakan maka servo akan terbuka sesuai dengan coding yang sudah diinputkan kedalam node mcu. Motor servo akan berputar sesuai dengan perintah yang diterima dari kontroler dan akan berhenti saat posisi rotor sesuai dengan perintah yang diterima.
+2.ultra sonic : Cara kerja sensor ultrasonic adalah dengan cara pantulan suatu gelombang suara yang dapat 
+digunakan untuk menafsirkan eksistensi atau jarak suatu benda menggunakan frekuensi tertentu.
+ Sensor ini menggunakan gelombang ultrasonik (bunyi ultrasonik) dalam mendeteksi suatu jarak benda.
+
+3. Contoh penggunaan pemrograman sistem tertanam pada kehidupan sehari hari contohnya adalah:
+- Palang pintu otomatis berbasis  RFID
+- Gembok kunci dengan sensor 
+- Absensi Fingerprint
+- Alat penyiraman tanaman otomatis berbasis IOT
+- Kontrol lampu jarak jauh
+
+4.  Pada matakuliah pemrograman sistem tertanam saya dan kelompok saya membuat sistem door lock berbasis RFID dan kunci solenoid.
+Menggunakan Arduino Uno, kemudian menggunakan rfid dan memanfaatkan E-KTP untuk RFID tag, cara kerjanya adalah pertama kartu harus di validasi terlebih dahulu dalam sistem,
+kemudian kartu yang memiliki akses akan dapat membuka kunci solenoid apabila kartu ditempelkan ke rfid reader maka otomatis kunci akan terbuka.
+menggunakan DC Power supply 12 V untuk arduino dan menggunakan relay untuk solenoid.
+
